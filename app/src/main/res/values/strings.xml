@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">HelloAndroid</string>
+    <string name="about_us">ABOUT US</string>
+    <string name="udacity_is_a_educational_organization_offering">Udacity is a educational organization offering</string>
+    <string name="massive_open_online_courses_this_is_the_place">massive open online courses. This is the place</string>
+    <string name="where_lifelong_learners_come_to_learn_the_skils">where lifelong learners come to learn the skils</string>
+    <string name="they_need_to_land_the_jobs_they_want_to_build">they need, to land the jobs they want, to build</string>
+    <string name="the_lives_they_deserve">the lives they deserve.</string>
+    <string name="adress">ADRESS</string>
+    <string name="_2465_latham_st">2465 Latham St</string>
+    <string name="mountain_view_ca_94043">Mountain View, CA 94043</string>
+    <string name="_650_555_5555">650-555-5555</string>
+    <string name="udacity">Udacity</string>
+    <string name="in_partnership_with">In partnership with</string>
+</resources>

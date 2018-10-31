@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.helloandroid.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/lastbadge2" />
+
+    <TextView
+        android:id="@+id/despre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="252dp"
+        android:text="@string/about_us"
+        android:textColor="#00BCD4"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/a"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/despre"
+        android:fontFamily="serif"
+        android:paddingLeft="30dp"
+        android:paddingTop="15dp"
+        android:text="@string/udacity_is_a_educational_organization_offering"
+        android:textSize="16sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/b"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/a"
+        android:fontFamily="serif"
+        android:paddingLeft="30dp"
+        android:text="@string/massive_open_online_courses_this_is_the_place"
+        android:textSize="16sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/c"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/goo"
+        android:layout_alignRight="@+id/goo"
+        android:layout_below="@+id/b"
+        android:fontFamily="serif"
+        android:paddingLeft="26dp"
+        android:text="@string/where_lifelong_learners_come_to_learn_the_skils"
+        android:textSize="16sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/d"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/c"
+        android:fontFamily="serif"
+        android:paddingLeft="32dp"
+        android:text="@string/they_need_to_land_the_jobs_they_want_to_build"
+        android:textSize="16sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/e"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/d"
+        android:fontFamily="serif"
+        android:paddingLeft="43dp"
+        android:text="@string/the_lives_they_deserve"
+        android:textSize="16sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/aa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/e"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="32dp"
+        android:text="@string/adress"
+        android:textColor="#00BCD4"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/ab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/aa"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="5dp"
+        android:text="@string/_2465_latham_st"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/ac"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ab"
+        android:layout_centerHorizontal="true"
+        android:text="@string/mountain_view_ca_94043"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/y"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ac"
+        android:layout_centerHorizontal="true"
+        android:text="@string/_650_555_5555"
+        android:textSize="14sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/y"
+        android:layout_centerHorizontal="true"
+        android:text="@string/udacity"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@id/gg"
+        android:fontFamily="sans-serif-smallcaps"
+        android:paddingRight="4dp"
+        android:text="@string/in_partnership_with" />
+
+    <TextView
+        android:id="@+id/gg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@id/go"
+        android:text="G"
+        android:textColor="#0D47A1"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/go"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@id/goo"
+        android:text="o"
+        android:textColor="#F44336"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/goo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@id/ggg"
+        android:text="o"
+        android:textColor="#FDD835"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/ggg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@id/gl"
+        android:text="g"
+        android:textColor="#0D47A1"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/gl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@id/ge"
+        android:text="l"
+        android:textColor="#4CAF50"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/ge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:paddingRight="6dp"
+        android:text="e"
+        android:textColor="#F44336"
+        android:textSize="25sp" />
+
+
+</RelativeLayout>
