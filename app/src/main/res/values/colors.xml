@@ -3,4 +3,12 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+
+
+    <!-- Colors for the letters of Google -->
+    <color name="G">#0D47A1</color>
+    <color name="O">#F44336</color>
+    <color name="secondO">#FDD835</color>
+    <color name="L">#4CAF50</color>
+    <color name="E">#F44336</color>
 </resources>

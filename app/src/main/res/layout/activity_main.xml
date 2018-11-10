@@ -143,7 +143,7 @@
         android:layout_alignParentBottom="true"
         android:layout_toLeftOf="@id/go"
         android:text="G"
-        android:textColor="#0D47A1"
+        android:textColor="@color/G"
         android:textSize="25sp" />
 
     <TextView
@@ -153,7 +153,7 @@
         android:layout_alignParentBottom="true"
         android:layout_toLeftOf="@id/goo"
         android:text="o"
-        android:textColor="#F44336"
+        android:textColor="@color/O"
         android:textSize="25sp" />
 
     <TextView
@@ -163,7 +163,7 @@
         android:layout_alignParentBottom="true"
         android:layout_toLeftOf="@id/ggg"
         android:text="o"
-        android:textColor="#FDD835"
+        android:textColor="@color/secondO"
         android:textSize="25sp" />
 
     <TextView
@@ -173,7 +173,7 @@
         android:layout_alignParentBottom="true"
         android:layout_toLeftOf="@id/gl"
         android:text="g"
-        android:textColor="#0D47A1"
+        android:textColor="@color/G"
         android:textSize="25sp" />
 
     <TextView
@@ -183,7 +183,7 @@
         android:layout_alignParentBottom="true"
         android:layout_toLeftOf="@id/ge"
         android:text="l"
-        android:textColor="#4CAF50"
+        android:textColor="@color/L"
         android:textSize="25sp" />
 
     <TextView
@@ -194,7 +194,7 @@
         android:layout_alignParentRight="true"
         android:paddingRight="6dp"
         android:text="e"
-        android:textColor="#F44336"
+        android:textColor="@color/E"
         android:textSize="25sp" />
 
 
